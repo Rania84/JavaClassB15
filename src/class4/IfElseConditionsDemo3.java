@@ -19,7 +19,7 @@ public class IfElseConditionsDemo3 {
                     System.out.println("Suterday");
                 }else if (day==7) {
                     System.out.println("Synday");
-                }else{
+                }else {
                     System.out.println("Please enter a day between 1 and 7");
                 }
     }
