@@ -7,11 +7,13 @@ public class task1 {
         // characters, print the character in the middle of the String.
         //For Example String str=hello =>l
 
-        String str= "Hello";
-        if (str.length()>2 && str.length()%2!=0){
-            int index= str.length()/2;
-            System.out.println(str.charAt(index));
-        }
+        String str = "Hello";
 
-    }
-}
+        if (str.length() > 2 && str.length() % 2 != 0) {
+            if (!str.isEmpty()) {
+                int index = str.length() / 2;
+                System.out.println(str.charAt(index));
+            }
+
+        }
+    }}

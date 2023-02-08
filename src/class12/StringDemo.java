@@ -10,7 +10,7 @@ public class StringDemo {
         System.out.println(strObj2.length());
         String str="Banana ";
         int len=str.length();
-        System.out.println(len);
+        System.out.println( );
         String name="Rania Moanes ";
         if (name.length()>10){
             System.out.println("Name can't be more than 10 letters");

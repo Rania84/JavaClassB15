@@ -14,6 +14,6 @@ boolean attitude;
     }
 
     void eat(){
-        System.out.println(" eating fish .........");
+        System.out.println("eating fish .........");
     }
 }

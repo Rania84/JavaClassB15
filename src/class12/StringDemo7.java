@@ -11,7 +11,7 @@ public class StringDemo7 {
         //Method chaining is when multiple methods are called on the same line
         // only those methods can be chained which returns a String
         System.out.println(str.toLowerCase().startsWith("i"));
-        // System.out.println(str.length().startsWith("i"));
+        //System.out.println(str.length().startsWith("i"));
 
         System.out.println(str.contains("java"));
     }}
